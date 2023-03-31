@@ -22,12 +22,14 @@ const Login = () => {
       email: formData.get("email"),
       password: formData.get("password"),
     };
-    const { data } = await loginUser(userData);
+    // const { data } = await loginUser(userData);
 
-    if (data.email === "admin@gmail.com" && data.password === "admin") {
-      localStorage.setItem("isLoggedIn", true);
-      window.location.href = `/dashboard`;
-    }
+    // if (data.email === "admin@gmail.com" && data.password === "admin") {
+    //   localStorage.setItem("isLoggedIn", true);
+    //   window.location.href = `/dashboard`;
+    // }
+    localStorage.setItem("isLoggedIn", true);
+    window.location.href = `/dashboard`;
   };
 
   return (
