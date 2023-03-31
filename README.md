@@ -1,4 +1,6 @@
 # Getting Started with Demo
 
-This project was bootstrapped with [Create React App](https://materialui-react-alpha.vercel.app).
+Click here to see the demo [Demo](https://materialui-react-alpha.vercel.app).
 
+email : test@gmail.com
+password : 123456
